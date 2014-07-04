@@ -1,7 +1,7 @@
 {
 	"name": "grunt-doxx",
 	"description": "Generate your docs with Doxx.",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"homepage": "https://github.com/evertton/grunt-doxx",
 	"author": {
 		"name": "Evertton de Lima",
@@ -39,6 +39,10 @@
 		"grunt": "~0.4.5"
 	},
 	"keywords": [
-		"gruntplugin"
+		"gruntplugin",
+		"dox",
+		"documentation",
+		"docs",
+		"documentor"
 	]
 }
