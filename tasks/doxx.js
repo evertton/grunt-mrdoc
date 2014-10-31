@@ -15,7 +15,7 @@ var exec = require('child_process').exec,
 module.exports = function(grunt) {
 
 	grunt.registerMultiTask('doxx', 'Generate your docs with Doxx.', function() {
-
+                var done = this.async();
 		var pluginPath = path.resolve(__dirname, '../'),
 			src = this.data.src,
 			target = this.data.target,
@@ -39,7 +39,7 @@ module.exports = function(grunt) {
 		}
 
 		if(_opts.title) {
-			_args.add('--title', _opts.title);
+			_args.add('--title', '"' + _opts.title + '"');
 		}
 
 		if(_opts.target_extension) {
