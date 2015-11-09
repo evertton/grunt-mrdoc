@@ -62,6 +62,12 @@ Default value: ` `
 
 The jade template file to use.
 
+#### options.theme
+Type: `String`
+Default value: ` `
+
+The theme to use.
+
 #### options.readme
 Type: `String`
 Default value: `'README.md'`
