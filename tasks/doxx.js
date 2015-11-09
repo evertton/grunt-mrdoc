@@ -49,6 +49,10 @@ module.exports = function(grunt) {
 		if(_opts.template) {
 			_args.add('--template', _opts.template);
 		}
+		
+		if (_opts.theme) {
+			_args.add('--theme', _opts.theme)
+		}
 
 		if(_opts.readme) {
 			_args.add('--readme', _opts.readme);
