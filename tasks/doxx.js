@@ -51,7 +51,7 @@ module.exports = function(grunt) {
 		}
 		
 		if (_opts.theme) {
-			_args.add('--theme', _opts.theme)
+			_args.add('--theme', _opts.theme);
 		}
 
 		if(_opts.readme) {
