@@ -8,7 +8,6 @@
  */
 
 var exec = require('child_process').exec,
-	fs = require('fs'),
 	path = require('path'),
 	rimraf = require('rimraf');
 
@@ -27,23 +26,23 @@ module.exports = function(grunt) {
 			_args.push(arg2);
 		};
 
-		var formatter = [pluginPath, 'node_modules', '.bin', 'doxx'].join(path.sep);
+		var formatter = [pluginPath, 'node_modules', '.bin', 'mr-doc'].join(path.sep);
 
 		rimraf.sync(target);
 
 		_args.add('--source', src);
-		_args.add('--target', target);
+		_args.add('--output', target);
 
 		if(_opts.ignore) {
 			_args.add('--ignore', _opts.ignore);
 		}
 
 		if(_opts.title) {
-			_args.add('--title', '"' + _opts.title + '"');
+			_args.add('--name', '"' + _opts.title + '"');
 		}
 
 		if(_opts.target_extension) {
-			_args.add('--target_extension', _opts.target_extension);
+			_args.add('--extension', _opts.target_extension);
 		}
 
 		if(_opts.template) {
