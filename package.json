@@ -27,7 +27,7 @@
 		"test": "grunt test"
 	},
 	"dependencies": {
-		"doxx": "*",
+		"mr-doc": "*",
 		"rimraf": "2.x"
 	},
 	"devDependencies": {
@@ -41,6 +41,7 @@
 	"keywords": [
 		"gruntplugin",
 		"dox",
+	    "mr-doc",
 		"documentation",
 		"docs",
 		"documentor"
