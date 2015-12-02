@@ -1,18 +1,18 @@
 {
-	"name": "grunt-doxx",
-	"description": "Generate your docs with Doxx.",
-	"version": "0.1.3",
-	"homepage": "https://github.com/evertton/grunt-doxx",
+	"name": "grunt-mrdoc",
+	"description": "Generate your docs with mr-doc.",
+	"version": "0.1.4",
+	"homepage": "https://github.com/evertton/grunt-mrdoc",
 	"author": {
 		"name": "Evertton de Lima",
 		"email": "e.everttonlima@gmail.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/evertton/grunt-doxx.git"
+		"url": "git://github.com/evertton/grunt-mrdoc.git"
 	},
 	"bugs": {
-		"url": "https://github.com/evertton/grunt-doxx/issues"
+		"url": "https://github.com/evertton/grunt-mrdoc/issues"
 	},
 	"licenses": [
 		{
