@@ -113,6 +113,7 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
+* **0.1.5**: Fix path to locate deps
 * **0.1.4**: Migrate for Mr. Doc
 * **0.1.3**: Adds support for theme
 * **0.1.0**: Initial release
