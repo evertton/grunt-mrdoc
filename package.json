@@ -1,6 +1,6 @@
 {
 	"name": "grunt-mrdoc",
-	"description": "Generate your docs with mr-doc.",
+	"description": "Generate your docs with Mr. Doc",
 	"version": "0.1.4",
 	"homepage": "https://github.com/evertton/grunt-mrdoc",
 	"author": {

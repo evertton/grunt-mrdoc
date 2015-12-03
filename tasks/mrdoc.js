@@ -1,8 +1,8 @@
 /*
- * grunt-doxx
- * https://github.com/evertton/grunt-doxx
+ * grunt-mrdoc
+ * https://github.com/evertton/grunt-mrdoc
  *
- * Copyright (c) 2014 Evertton de Lima
+ * Copyright (c) 2014-2015 Evertton de Lima
  * Licensed under the MIT license.
  * http://evertton.mit-license.org
  */
@@ -13,7 +13,7 @@ var exec = require('child_process').exec,
 
 module.exports = function(grunt) {
 
-	grunt.registerMultiTask('doxx', 'Generate your docs with Doxx.', function() {
+	grunt.registerMultiTask('mrdoc', 'Generate your docs with Mr. Doc', function() {
                 var done = this.async();
 		var pluginPath = path.resolve(__dirname, '../'),
 			src = this.data.src,
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
 		if(_opts.template) {
 			_args.add('--template', _opts.template);
 		}
-		
+
 		if (_opts.theme) {
 			_args.add('--theme', _opts.theme);
 		}

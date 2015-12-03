@@ -1,6 +1,6 @@
-# grunt-doxx
+# grunt-mrdoc
 
-Doxx grunt plugin automatically generates the documentation for your project.
+Mr. Doc grunt plugin automatically generates the documentation for your project.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
@@ -8,23 +8,23 @@ This plugin requires Grunt `~0.4.5`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-doxx --save-dev
+npm install grunt-mrdoc --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-doxx');
+grunt.loadNpmTasks('grunt-mrdoc');
 ```
 
-## The "doxx" task
+## The "mrdoc" task
 
 ### Overview
-In your project's Gruntfile, add a section named `doxx` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `mrdoc` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-  doxx: {
+  mrdoc: {
     all: {
       src: 'src',
       target: 'docs',
@@ -81,7 +81,7 @@ In this example, the default options are used to automatically generates documen
 
 ```js
 grunt.initConfig({
-  doxx: {
+  mrdoc: {
     all: {
       src: 'src',
       target: 'docs'
@@ -95,14 +95,14 @@ In this example, the custom options are used to change *title* and *template* of
 
 ```js
 grunt.initConfig({
-  doxx: {
+  mrdoc: {
     custom: {
       src: 'src',
       target: 'docs',
       options: {
-        title: 'Doxx',
+        title: 'Mr. Doc',
         ignore: 'examples,vendors',
-        template: 'templates/doxx.jade'
+        template: 'templates/mrdoc.jade'
       },
     }
   },
@@ -113,9 +113,9 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
+* **0.1.4**: Migrate for Mr. Doc
 * **0.1.3**: Adds support for theme
 * **0.1.0**: Initial release
 
 ## License
-Copyright (c) 2014-2015 Evertton de Lima. Licensed under the [MIT 
-license](http://evertton.mit-license.org).
+Copyright (c) 2014-2015 Evertton de Lima. Licensed under the [MIT license](http://evertton.mit-license.org).
