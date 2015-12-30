@@ -15,7 +15,7 @@ module.exports = function(grunt) {
 
 	grunt.registerMultiTask('mrdoc', 'Generate your docs with Mr. Doc', function() {
                 var done = this.async();
-		var pluginPath = path.resolve(__dirname, '../../'),
+		var pluginPath = path.resolve(__dirname, '../'),
 			src = this.data.src,
 			target = this.data.target,
 			_opts = this.options(),
